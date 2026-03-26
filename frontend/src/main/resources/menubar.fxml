@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.input.*?>
+
+<MenuBar fx:id="menuBar" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <Menu fx:id="fileMenu" text="File">
+        <MenuItem fx:id="newMenuItem" text="New"/>
+        <SeparatorMenuItem mnemonicParsing="false"/>
+        <MenuItem fx:id="openMenuItem" text="Open"/>
+
+        <MenuItem fx:id="saveMenuItem" text="Save" disable="true"/>
+        <MenuItem fx:id="saveAsMenuItem" text="Save As..." disable="true"/>
+
+        <SeparatorMenuItem mnemonicParsing="false"/>
+        <MenuItem fx:id="quitMenuItem" text="Quit"/>
+    </Menu>
+
+    <Menu fx:id="editMenu" text="Edit">
+        <MenuItem fx:id="preferencesMenuItem" text="Preferences"/>
+    </Menu>
+
+    <Menu fx:id="helpMenu" text="Help">
+        <MenuItem fx:id="helpMenuItem" text="Help"/>
+        <MenuItem fx:id="aboutMenuItem" text="About"/>
+    </Menu>
+</MenuBar>
